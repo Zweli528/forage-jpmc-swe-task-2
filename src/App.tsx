@@ -47,7 +47,7 @@ class App extends Component<{}, IState> {
         // Previous data in the state and the new data from server
         this.setState({ 
           data: serverResponds,
-          showgraph: true, 
+          showGraph: true, 
         });
       });
       x++;
